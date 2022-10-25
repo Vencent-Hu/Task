@@ -1,11 +1,12 @@
-import React, { useEffect } from "react";
+import React from "react";
 import styles from "../styles/table.module.css";
-import { useDispatch, useSelector } from "react-redux";
-import { load } from "../redux/dataSlice";
+import { useSelector } from "react-redux";
 
 const UniTable = () => {
   const uniTable = useSelector((state) => state.uniTable);
 
+  //The property name: state-province might be an error from the API, since dash key is iilegal in documentation.
+  //So I just use state_province to avoid the error.
   return (
     <div>
       <table className={styles.tb}>
