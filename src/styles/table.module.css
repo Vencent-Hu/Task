@@ -1,0 +1,33 @@
+.tb{
+    border-spacing: 0;
+    border: 1px solid black;
+}
+
+.th{
+    border-bottom: 'solid 3px blue';
+    border-right: 1px solid black;
+    background: rgb(155, 155, 224);
+    color:white;
+    font-weight: bold;
+}
+.th:nth-child(1){
+    padding-left: 130px;
+    padding-right: 130px;
+}
+.th:nth-child(2){
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.th:nth-child(4){
+    padding-left: 135px;
+    padding-right: 135px;
+}
+.th:nth-child(5){
+    padding-left: 170px;
+    padding-right: 170px;
+}
+.td{
+    padding: 0.5rem;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
