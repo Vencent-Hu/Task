@@ -4,7 +4,6 @@ import { useDispatch, useSelector } from "react-redux";
 import { load } from "../redux/dataSlice";
 
 const UniTable = () => {
-
   const uniTable = useSelector((state) => state.uniTable);
 
   return (

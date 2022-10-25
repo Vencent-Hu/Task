@@ -9,14 +9,14 @@ const dataSlice = createSlice({
     load: (state, action) => {
       state.unis.push(action.payload);
     },
-    addItem:(state, action) => {
+    addItem: (state, action) => {
       state.unis.push(state.unis[0]);
     },
-    deleteItem:(state, action) => {
+    deleteItem: (state, action) => {
       state.unis.splice(state.unis.length - 1, 1);
-    }
+    },
   },
 });
 
-export const { load,addItem,deleteItem } = dataSlice.actions;
+export const { load, addItem, deleteItem } = dataSlice.actions;
 export default dataSlice.reducer;

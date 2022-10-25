@@ -1,32 +1,32 @@
-.container{
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex:1;
-    position: relative;
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex: 1;
+  position: relative;
 }
-.button{
-    margin: 10px;
-    padding: 10px;
-    background: rgb(155, 155, 224);
-    border-radius: 8px;
-    width:150px;
+.button {
+  margin: 10px;
+  padding: 10px;
+  background: rgb(155, 155, 224);
+  border-radius: 8px;
+  width: 150px;
 }
-button:hover{
-    cursor: pointer;
+button:hover {
+  cursor: pointer;
 }
-.button:nth-child(1){
-    position: absolute;
-    top: 10px;
-    right: 5px;
+.button:nth-child(1) {
+  position: absolute;
+  top: 10px;
+  right: 5px;
 }
-.button:nth-child(2){
-    position: absolute;
-    top: 80px;
-    right: 5px;
+.button:nth-child(2) {
+  position: absolute;
+  top: 80px;
+  right: 5px;
 }
-.button:nth-child(3){
-    position: absolute;
-    top: 150px;
-    right: 5px;
+.button:nth-child(3) {
+  position: absolute;
+  top: 150px;
+  right: 5px;
 }
